@@ -6,7 +6,8 @@ to execute a shellcode (shell.py and winshell.py) and evade AVs.
 
 1. shell and winshell do straightforward shellcode execution 
 on Linux and Windows respectively.
-2. generate.py does instead generate python scripts (similar to the former ones)
+2. cryptshell is the first try at executing an Hyperion like crypted shellcode.
+3. generate.py does instead generate python scripts (similar to the former ones)
 from a given shellcode (read from a file or piped in by msfpayload/msfvenom),
 optionally adding an Hyperion/Veil/[SympleCrypter](https://github.com/ciccio-87/SimpleCrypter) like AV evasion.
 The generated script could be very well used with PyInstaller or similar,
