@@ -12,5 +12,5 @@ optionally adding an Hyperion/Veil/[SympleCrypter](https://github.com/ciccio-87/
 The generated script could be very well used with PyInstaller or similar,
 automation for this is not implemented though.
 
-For real world usage DES is probably totally outdated, it should be replaced
-with AES (or 3DES at least).
+<s>For real world usage DES is probably totally outdated, it should be replaced
+with AES (or 3DES at least).</s> Don't mind it, it's already using AES, I was confusing it with SimpleCrypter
